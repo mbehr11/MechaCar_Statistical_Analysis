@@ -15,18 +15,18 @@ After Jeremy is offered the lead with a data analytics team for AutoRU’s.  He 
 
 •	The MechaCar_mpg csv is imported and read into a dataframe:
 
-![alttext]( Resources/MechaCar_df .PNG) 
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_df.PNG) 
 
 •	Linear Regression Model for all 6 variables:
 ### mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mecha_car_df) ###
 
-![alttext]( Resources/lm_mechacar.PNG)
+![alttext]( https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/lm_mechacar.PNG)
 
 ## Linear Regression to Predict MPG
 •	summary(mecha_lm) 
-![alttext]( Resources/summary_mechacar.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/summary_mechacar.PNG)
 
-![alttext]( Resources/summary_mechacar2.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/summary_mechacar2.PNG)
 
 •	Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -40,31 +40,29 @@ No because there are outstanding factors that affect the linear model and skew t
 
 2.	#### Create Visualizations for the Trip Analysis ####
 
-![alttext]( Resources / suspension_coil_df.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/suspension_coil_df.PNG)
 
 ### Total_summary ###
 
-![alttext]( Resources / total_summary.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.PNG)
 
 ### Lot_summary ###
 
-![alttext]( Resources / lot_summary.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.PNG)
 
 
 3.	T-Tests on Suspension Coils
 
  
-![alttext]( Resources /one-sample_t.test.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/one-sample_t.test.PNG)
 
  
-![alttext]( Resources/sample_t.test-2.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/sample_t.test-lot1.PNG)
 
  
-![alttext]( Resources/sample_lot2.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/sample_t.test-lot2.PNG)
 
- 
-
-![alttext]( Resources/sample_lot3.PNG)
+![alttext](https://github.com/mbehr11/MechaCar_Statistical_Analysis/blob/main/Resources/sample_t.test-lot3.PNG)
 
 4.	## Study Design: MechaCar vs Competition
 
